@@ -16,7 +16,7 @@ import math
 
 data= input("Enter radius of sphere")
 r= data
-r= int(r)
+r= float(r)
 part1= (4/3)*math.pi
 volume= (part1*(pow(r,3)))
 answer= float(volume)
