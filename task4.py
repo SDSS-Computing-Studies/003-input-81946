@@ -13,3 +13,23 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+
+import math
+
+a= input("What is the length of one short side?")
+b= input("What is the other short side length")
+
+a= int(a)
+b= int(b)
+
+part1= pow(a,2)
+part2= pow(b,2)
+
+c= (part1 + part2)
+
+c= int(c)
+
+answer= math.sqrt(c)
+
+print("The hypotenuse is=")
+print(answer)
